@@ -29,11 +29,10 @@ Cordova Install Note:
 #import <KakaoOpenSDK/KakaoOpenSDK.h>
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
-                                       sourceApplication:(NSString *)sourceApplication
-                                              annotation:(id)annotation {
-    ...
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    NSLog(@" HIT HERE !!");
     if ([KOSession isKakaoAccountLoginCallback:url]){return [KOSession handleOpenURL:url];}
-    ...
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application{[KOSession handleDidBecomeActive];}
