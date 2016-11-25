@@ -15,6 +15,8 @@ Cordova Install Note:
 ========================
 
 cordova plugin add https://github.com/taejaehan/cordova-kakaotalk.git --variable KAKAO_APP_KEY=YOUR_KAKAO_APP_KEY
+->
+cordova plugin add https://github.com/kd0g/Cordova-Kakaotalk-Plugin --variable KAKAO_APP_KEY=YOUR_KAKAO_APP_KEY
 
 [Android]
 * nothing to do ;-)
